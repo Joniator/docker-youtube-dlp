@@ -18,7 +18,7 @@ For cli2cloud version ([list of tags here](https://github.com/Joniator/docker-yo
 * Docker-Hub: `joniator/youtube-dlp:vx.x.x`
 
 ## Included:
-* 
+* yt-dlp
 
 ### Base Image
 * alpine:edge
