@@ -71,7 +71,7 @@ jobs:
             ghcr.io/${{ env.IMAGE_NAME }}
             ${{ env.IMAGE_NAME }}
           tags: |
-            type=raw,value=${{ steps.get_version.outputs.version }}
+              type=pep440,pattern=v{{version}},value=${{ steps.get_version.outputs.version }}
           labels: |
             org.opencontainers.image.description=${{ env.DESCRIPTION }}
       # Build Docker image with Buildx 
