@@ -1,4 +1,4 @@
-# joniator/cli2cloud
+# joniator/youtube-dlp
 
 [![Build status](https://img.shields.io/github/workflow/status/Joniator/docker-youtube-dlp/Docker)](https://github.com/Joniator/docker-youtube-dlp/actions/workflows/docker-publish.yml) 
 [![DockerHub Pulls](https://img.shields.io/docker/pulls/joniator/youtube-dlp)](https://hub.docker.com/r/joniator/youtube-dlp)
